@@ -1,7 +1,7 @@
 @tool
 extends EditorPlugin
 
-var ui
+var ui : Control
 const UI = preload("res://addons/BFObjectPlacer/ui/ui.tscn")
 
 func _enter_tree() -> void:
