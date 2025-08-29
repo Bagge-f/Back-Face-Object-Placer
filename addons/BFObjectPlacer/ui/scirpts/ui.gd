@@ -22,7 +22,7 @@ var object_path # The path of the object that will be placed.
 
 # 3D gizmo scene path.
 var GIZMO : MeshInstance3D = null # Variable to store the 3D scene of the gizmo
-var gizmo_scene := preload("res://addons/BFObjectPlacer/gizmo/gizmo.tscn") # 3D scene path.
+var gizmo_scene : PackedScene = preload("res://addons/BFObjectPlacer/gizmo/gizmo.tscn") # 3D scene path.
 
 # Define tree nodes attributes, like hide root, names and others.
 func _ready() -> void:
